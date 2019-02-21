@@ -13,6 +13,24 @@ answer.push(result);}
 return answer;
 }
 
+/*
+answerArrayFromAbove();
+    
+    
+(9) [Array(4), Array(3), Array(1), Array(1), Array(1), Array(2), Array(1), Array(1), Array(1)]
+0: (4) [1, 1, 1, 1]
+1: (3) [2, 2, 2]
+2: [4]
+3: [5]
+4: [10]
+5: (2) [20, 20]
+6: [391]
+7: [392]
+8: [591]
+length: 9
+__proto__: Array(0)
+*/
+
     
 /*Bonus: Make it so it organizes strings differently from number types. i.e. [1, "2", "3", 2] should return [[1,2], ["2", "3"]]*/
 //Solution:
@@ -32,6 +50,19 @@ clean.push(isnumb);
 clean.push(islett);
 return;
 }
+
+/*
+undefined
+myClean(uncl, nu, le); 
+undefined
+clean;
+(2) [Array(2), Array(2)]
+0: (2) [1, 2]
+1: (2) ["2", "3"]
+length: 2
+__proto__: Array(0)
+*/
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*Question 2: Write a javascript function that takes an array of numbers and a target number. The function should find two different numbers in the array that, when added together, give the target number. For example: answer([1,2,3], 4)should return [1,3]*/
@@ -63,6 +94,19 @@ main.push(temi);
 }
 return;
 }
+
+/*
+answerMe(de, mi); 
+undefined
+main;
+(3) [Array(2), Array(2), Array(2)]
+0: (2) [4, 1]
+1: (2) [3, 2]
+2: (2) [0, 5]
+length: 3
+__proto__: Array(0)
+*/
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //Question 3: Write a function that converts HEX to RGB. Then Make that function auto-dect the formats so that if you enter HEX color format it returns RGB and if you enter RGB color format it returns HEX.
 //Solution:
@@ -203,6 +247,15 @@ var result = '#' + res;
 } 
 return result;
  }
+
+
+/*
+undefined
+myFunction('#456032');
+"RGB(69,96,50)"
+myFunction('rgb(145,78,94)');
+"#914e5e"
+*/
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////THE END ////////////////////////////////////////////////////////////////////////////
 
